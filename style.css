@@ -9,13 +9,18 @@ body {
   width: 100%;
   min-height: 100vh;
 }
-.header {
+.header,
+.hero-image {
   background-color: #1f2937;
   width: 100%;
-  height: 100px;
+  height: 300px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+.hero-image {
+  padding-bottom: 100px;
 }
 .menu ul {
   display: flex;
@@ -32,4 +37,22 @@ body {
 .header h1 {
   font-size: 24px;
   color: #f9faf8;
+}
+.hero-p {
+  width: 400px;
+}
+.hero-p h2 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+.hero-p p {
+  font-size: 18px;
+  color: #f9faf8;
+}
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 5px 15px;
+  color: #f9faf8;
+  border-radius: 5px;
 }
